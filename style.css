@@ -1,0 +1,41 @@
+body {
+    font-family: consolas;
+    background-image: linear-gradient(to bottom right, rgb(174, 160, 238), white, white,  white, rgb(174, 160, 238));
+}
+
+nav {
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid rgb(113, 89, 221);
+    background-color: rgb(226, 221, 250);
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: rgb(113, 89, 221);
+    color: white;
+    transition: all 0.3s linear;
+}
+
+nav a:focus {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+header h1 {
+    padding: 20px;
+    display: inline-block;
+}
+
+p {
+    font-size: 19px;
+}
